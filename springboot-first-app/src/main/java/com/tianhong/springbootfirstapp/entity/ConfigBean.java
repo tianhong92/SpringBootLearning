@@ -1,4 +1,4 @@
-package com.tianhong.springbootfirstapp.dao;
+package com.tianhong.springbootfirstapp.entity;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

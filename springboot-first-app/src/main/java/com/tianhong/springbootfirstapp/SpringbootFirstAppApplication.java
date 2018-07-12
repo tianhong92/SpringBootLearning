@@ -15,7 +15,6 @@ public class SpringbootFirstAppApplication {
         SpringApplication.run(SpringbootFirstAppApplication.class, args);
     }
 
-    @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
             System.out.println("Let's inspect the beans provided by Spring Boot:");
